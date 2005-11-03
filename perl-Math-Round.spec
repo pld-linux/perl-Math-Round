@@ -6,6 +6,7 @@
 %define	pdir	Math
 %define	pnam	Round
 Summary:	Math::Round - Perl extension for rounding numbers
+Summary(pl):	Math::Round - perlowe rozszerzenie do zaokr±glania liczb
 Name:		perl-Math-Round
 Version:	0.05
 Release:	0.1
@@ -22,8 +23,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Math::Round supplies functions that will round numbers in different
 ways. The functions round and nearest are exported by default; others
-are available as described below. "use ... qw(:all)" exports all
-functions.
+are available as described in the manual. "use ... qw(:all)" exports
+all functions.
+
+%description -l pl
+Math::Round udostêpnia funkcje zaokr±glaj±ce liczby w ró¿ny sposób.
+Funkcje round i nearest s± eksportowane domy¶lnie; inne s± dostêpne w
+sposób opisany w manualu. "use ... qw(:all)" eksportuje wszystkie
+funkcje.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -48,5 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/Math/*.pm
+%dir %{perl_vendorlib}/auto/Math/Round
 %{perl_vendorlib}/auto/Math/Round/autosplit.ix
 %{_mandir}/man3/*
