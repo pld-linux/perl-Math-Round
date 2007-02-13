@@ -6,7 +6,7 @@
 %define	pdir	Math
 %define	pnam	Round
 Summary:	Math::Round - Perl extension for rounding numbers
-Summary(pl.UTF-8):   Math::Round - perlowe rozszerzenie do zaokrąglania liczb
+Summary(pl.UTF-8):	Math::Round - perlowe rozszerzenie do zaokrąglania liczb
 Name:		perl-Math-Round
 Version:	0.05
 Release:	0.1
