@@ -9,7 +9,7 @@ Summary:	Math::Round - Perl extension for rounding numbers
 Summary(pl.UTF-8):	Math::Round - perlowe rozszerzenie do zaokrąglania liczb
 Name:		perl-Math-Round
 Version:	0.06
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
