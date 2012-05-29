@@ -55,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/Math/*.pm
+%{perl_vendorlib}/Math/Round.pm
 %dir %{perl_vendorlib}/auto/Math/Round
 %{perl_vendorlib}/auto/Math/Round/autosplit.ix
-%{_mandir}/man3/*
+%{_mandir}/man3/Math::Round.3pm*
