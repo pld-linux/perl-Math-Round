@@ -8,13 +8,13 @@
 Summary:	Math::Round - Perl extension for rounding numbers
 Summary(pl.UTF-8):	Math::Round - perlowe rozszerzenie do zaokrąglania liczb
 Name:		perl-Math-Round
-Version:	0.06
+Version:	0.07
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	552cef2753b246f97a6e20d8dee66e7c
+# Source0-md5:	b74c5d2a3f891c19dafd7ce638732fd1
 URL:		http://search.cpan.org/dist/Math-Round/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
